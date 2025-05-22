@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OKENGA & SON - Computer, Phones & Bookshop Centre</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header, footer {
+            background-color: #004080;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            background-color: #0059b3;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 2em 1em;
+        }
+        .products, .services, .contact {
+            margin-bottom: 2em;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 1em;
+        }
+        .product-item {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1em;
+            width: 100%;
+            max-width: 300px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .product-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        .service-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .service-list li {
+            margin: 0.5em 0;
+        }
+        .logo {
+            max-width: 80px;
+            height: auto;
+        }
+        @media (max-width: 768px) {
+            nav {
+                font-size: 0.9em;
+            }
+            .product-list {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/OOjs_UI_icon_shop.svg" alt="Logo" class="logo">
+        <h1>OKENGA & SON</h1>
+        <p>Computer, Phones & Bookshop Centre</p>
+    </header>
+
+    <nav>
+        <a href="#products">Products</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="products" class="products">
+            <h2>Our Products</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <h3>Computers</h3>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Desktop_computer_clipart_-_Victor_Camilo.png" alt="Computer">
+                </div>
+                <div class="product-item">
+                    <h3>Phones</h3>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Mobile_phone_icon.png" alt="Phone">
+                </div>
+                <div class="product-item">
+                    <h3>Books</h3>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Books_icon.png" alt="Books">
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <ul class="service-list">
+                <li>Typing and Printing</li>
+                <li>Photocopying</li>
+                <li>Passport Photos</li>
+                <li>Binding</li>
+                <li>Examination and Report Preparation</li>
+                <li>All kinds of Books</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p><strong>Phone:</strong> 0790587948 or 0748870386</p>
+            <p><strong>Location:</strong> Number Tano, Nyapea Subcounty</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 OKENGA & SON. All rights reserved.</p>
+    </footer>
+</body>
+</html>
